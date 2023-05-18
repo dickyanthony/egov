@@ -1,6 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div

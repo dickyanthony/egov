@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import styles from "../style";
-import { discount, robot, batamView } from "../assets";
-import GetStarted from "./GetStarted";
+import { discount, batamView } from "../assets";
+import GetStarted from "./GetStarted.jsx";
 import { Video } from "video-react";
 
 const Hero = () => {

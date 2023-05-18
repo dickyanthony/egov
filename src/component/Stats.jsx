@@ -1,6 +1,6 @@
 import { stats } from "../constants";
 import styles from "../style";
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 const Stats = () => (
   <section className={`${styles.flexCenter}  flex-wrap sm:mb-20 mb-6 `}>
