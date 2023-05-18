@@ -1,3 +1,5 @@
+//@ts-ignore
+import React from "react";
 import styles from "./style";
 import {
   Billing,
@@ -11,6 +13,7 @@ import {
   Contact,
 } from "./component";
 import { HashRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <HashRouter>
@@ -37,7 +40,7 @@ function App() {
                   className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}
                 >
                   <div className={`${styles.boxWidth}`}>
-                    <Stats /> <Business /> <Billing /> <CardDeal />{" "}
+                    <Stats /> <Business /> <Billing /> <CardDeal />
                     <Testimonials />
                     <CV />
                     <Contact />
