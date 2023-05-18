@@ -1,6 +1,6 @@
 //@ts-ignore
 import React from "react";
-import styles from "./style";
+import styles from "./style.tsx";
 import {
   Billing,
   Business,
