@@ -2,13 +2,8 @@ import styles from "./style";
 import {
   Billing,
   Business,
-  Button,
   CardDeal,
-  Clients,
-  CTA,
-  FeedbackCard,
-  Footer,
-  GetStarted,
+  CV,
   Hero,
   Navbar,
   Stats,
@@ -30,7 +25,8 @@ function App() {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
+          <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />
+          <CV />
           <Contact />
         </div>
       </div>
