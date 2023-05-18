@@ -1,11 +1,14 @@
 {
-  "homepage": "http://dickyanthony.github.io/egov/",
   "name": "egov",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "homepage": "https://dickyanthony.github.io/egov/",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -21,6 +24,7 @@
     "postcss": "^8.4.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
     "video-react": "^0.16.0"
   },
   "devDependencies": {

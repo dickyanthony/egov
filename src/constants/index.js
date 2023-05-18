@@ -1,19 +1,4 @@
-import {
-  people1,
-  muhammadRudi,
-  ahmad,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
-} from "../assets";
+import { people1, muhammadRudi, ahmad, shield, star, send } from "../assets";
 
 export const navLinks = [
   {
