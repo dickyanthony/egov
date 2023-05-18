@@ -10,10 +10,10 @@ import {
   Testimonials,
   Contact,
 } from "./component";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="bg-primary w-full overflow-hidden">
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
@@ -48,7 +48,7 @@ function App() {
           />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
