@@ -14,8 +14,8 @@ export const navLinks = [
     title: "CV",
   },
   {
-    id: "profile",
-    title: "Profile",
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -75,16 +75,19 @@ export const stats = [
     id: "stats-1",
     title: "eGovernment Application Usage Guide",
     value: "User guide",
+    url: "https://egov.batam.go.id/web/",
   },
   {
     id: "stats-2",
     title: "Legal Basis for eGovernment Applications",
     value: "Legal Basis",
+    url: "https://emonev.batam.go.id/web/dasar-hukum-terkait-aplikasi-egov-emonev/",
   },
   {
     id: "stats-3",
     title: "Batam Kepulauan Riau Indonesia",
     value: "Quick Contact",
+    url: "https://support.batam.go.id/",
   },
 ];
 

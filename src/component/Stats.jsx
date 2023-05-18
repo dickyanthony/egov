@@ -15,7 +15,11 @@ const Stats = () => (
         <p className="font-poppins font-normal xs:text-[15.45px] text-[10.45px] xs:leading-[26.58px] mt-2 leading-[21.58px] ml-3 text-white">
           {stat.title}
         </p>
-        <Button text="View" styles="py-2 mt-2 h-10 text-white text-[12px]" />
+        <Button
+          url={stat.url}
+          text="View"
+          styles="py-2 mt-2 h-10 text-white text-[12px]"
+        />
       </div>
     ))}
   </section>
